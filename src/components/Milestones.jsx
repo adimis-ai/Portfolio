@@ -45,7 +45,7 @@ const Milestones = () => {
           <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-700 to-black">
             Milestones
           </h2>
-          <p className="mt-4 text-lg text-gray-900">
+          <p className="mt-4 px-2 text-lg text-gray-900">
             Discover the transformative projects and accomplishments that have
             shaped my career journey and impact.
           </p>
