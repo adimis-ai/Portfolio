@@ -1,0 +1,64 @@
+.parallax {
+    /* The image used */
+    background: rgb(0,0,0);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../../assets/hero.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Flexbox styles for all devices */
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.hover\:border-teal-900\/30:hover {
+  border-color: rgba(33, 131, 118, 0.76);
+}
+
+.hover\:shadow-teal-900\/40:hover {
+  box-shadow: 0 4px 6px -1px rgba(33, 131, 118, 0.76),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.hover\:bg-teal-700:hover {
+  background-color: #319795;
+}
+
+.hover\:text-white:hover {
+  color: #ffffff;
+}
+
+.parallax2 {
+  /* The image used */
+  background: rgb(0,0,0);
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../../assets/cta.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Flexbox styles for all devices */
+.parallax2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
