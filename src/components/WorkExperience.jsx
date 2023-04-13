@@ -37,7 +37,7 @@ const WorkExperience = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-700 to-black">
-            Work Experience
+            My Work Experience
           </h2>
           <p className="mt-4 text-xl text-gray-900">
             A showcase of my diverse professional journey and the impact I've made along the way.
@@ -46,12 +46,13 @@ const WorkExperience = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
           {workExperiences.map(workExperience => (
-            <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
+            <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
               <h2 className="text-xl font-bold text-teal-900">{workExperience.title} | {workExperience.company} | {workExperience.duration}</h2>
               <p className="mt-5 text-sm text-gray-900">{workExperience.description}</p>
             </div>
           ))}
         </div>
+        
       </div>
     </section>
   );

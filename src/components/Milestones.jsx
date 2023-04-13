@@ -2,18 +2,22 @@ import React from 'react';
 
 const milestones = [
   {
-    title: 'Crafted an e-commerce app',
+    title: 'Currently participating in builspace night and weekends season 3.',
+    description: '',
+  },
+  {
+    title: 'Crafted an successful e-commerce store',
     description:
       'with React, Redux, and Node.js, featuring payment integration, user authentication, and shopping cart functionalities for seamless transactions.',
   },
   {
-    title: 'Developed Netsepio',
+    title: 'Developed Frontend of Netsepio',
     description:
       'a blockchain-based Chrome extension for website safety and authenticity categorization, using SvelteKit for frontend development.',
   },
   {
-    title: 'Created a web app and Landing Page',
-    description: 'for Netsepio and Lazaus Network in just 9 Days.',
+    title: 'Created a webapp for sorteus a secure VPN service',
+    description: 'a secure VPN service.',
   },
   {
     title: 'Managed a team of five',

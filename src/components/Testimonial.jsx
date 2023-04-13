@@ -33,7 +33,7 @@ const Testimonials = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map(({ quote, author }) => (
-            <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
+            <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
               <p className="italic text-sm text-gray-900">"{quote}"</p>
               <p className="mt-5 font-bold text-teal-900">- {author}</p>
             </div>

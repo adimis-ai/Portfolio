@@ -8,6 +8,7 @@ import Milestones from './components/Milestones'
 import CTA from './components/CTA'
 import Contact from './components/ContactUs'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -16,15 +17,17 @@ function App() {
       <Header />
       <Hero />
       <Services />
-      <div class="divider mx-48"></div> 
+      <div className="divider mx-48"></div> 
       <WorkExperience />
-      <div class="divider mx-48"></div> 
+      <div className="divider mx-48"></div> 
       <Skills />
-      <div class="divider mx-48 mb-14"></div> 
+      <div className="divider mx-48"></div> 
+      <Projects/>
+      <div className="divider mx-48 mb-14"></div> 
       <Milestones/>
       <CTA />
       <Testimonial />
-      <div class="divider mx-48 mb-14"></div> 
+      <div className="divider mx-48 mb-14"></div> 
       <Contact />
       <Footer />
     </div>

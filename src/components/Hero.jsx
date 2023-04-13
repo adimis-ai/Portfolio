@@ -4,24 +4,24 @@ import "./Styles/style.css"
 const Hero = () => {
   return (
     <div>
-      <section class="pt-24">
-          <div class="px-5 mx-auto max-w-7xl">
-              <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-                  <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-100 md:text-6xl md:tracking-tight">
-                      <span class="text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-800 to-black">Hi! I am Aditya Mishra a<br/>Fullstack developer</span>
+      <section className="pt-24">
+          <div className="px-5 mx-auto max-w-7xl">
+              <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
+                  <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-100 md:text-6xl md:tracking-tight">
+                      <span className="text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-800 to-black">Hi! I am Aditya Mishra a<br/>Fullstack developer</span>
                   </h1>
-                  <p class="px-0 mb-8 text-xl text-gray-900 md:text-xl lg:px-24">
+                  <p className="px-0 mb-8 text-xl text-gray-900 md:text-xl lg:px-24">
                       Let me help you build what you need, utilizing my extensive technical expertise and passion for problem-solving to create innovative, reliable, and efficient digital solutions tailored to your unique requirements.
                   </p>
-                  <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                      <a href="#Contact" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-teal-900 focus:ring focus:ring-teal-900 focus:ring-opacity-80 transition">
+                  <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
+                      <a href="#Contact" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-teal-900 focus:ring focus:ring-teal-900 focus:ring-opacity-80 transition">
                           Let's Connect
                       </a>
                   </div>
               </div>
           </div>
-          <section class="mt-20">
-              <div class="parallax">
+          <section className="mt-20">
+              <div className="parallax">
               </div>
           </section>
       </section>
