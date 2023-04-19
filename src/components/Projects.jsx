@@ -41,8 +41,8 @@ const Project = () => {
                     isSingleProject ? 'justify-center' : 'grid-cols-1 md:grid-cols-2'
                 } gap-8`}
             >
-                {projects.map(project => (
-                <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
+                {projects.map((project, index) => (
+                <div key={index} className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
                     <div className="relative w-full h-64 mb-4 rounded-md overflow-hidden">
                         <img className="w-full h-full object-fit" src={project.image} alt={project.name} />
                     </div>

@@ -35,8 +35,8 @@ const Skills = () => {
         </div>
 
         <div className="mt-8 grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-          {skills.map(skill => (
-            <div className="flex items-center justify-center p-4 border-2 border-teal-700 rounded-lg shadow-md hover:bg-teal-900 hover:text-white transition">
+          {skills.map((skill, index) => (
+            <div key={index} className="flex items-center justify-center p-4 border-2 border-teal-700 rounded-lg shadow-md hover:bg-teal-900 hover:text-white transition">
               <span className="font-semibold text-sm">{skill}</span>
             </div>
           ))}

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Styles/style.css"
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -14,9 +15,9 @@ const Hero = () => {
                       Let me help you build what you need, utilizing my extensive technical expertise and passion for problem-solving to create innovative, reliable, and efficient digital solutions tailored to your unique requirements.
                   </p>
                   <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                      <a href="#Contact" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-teal-900 focus:ring focus:ring-teal-900 focus:ring-opacity-80 transition">
+                      <Link to="/contact" className="inline-flex font-bold items-center justify-center w-full px-8 py-4 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-teal-900 focus:ring focus:ring-teal-900 focus:ring-opacity-80 transition">
                           Let's Connect
-                      </a>
+                      </Link>
                   </div>
               </div>
           </div>

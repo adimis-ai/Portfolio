@@ -45,8 +45,8 @@ const WorkExperience = () => {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {workExperiences.map(workExperience => (
-            <div className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
+          {workExperiences.map((workExperience, index) => (
+            <div key={index} className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/80">
               <h2 className="text-xl font-bold text-teal-900">{workExperience.title} | {workExperience.company} | {workExperience.duration}</h2>
               <p className="mt-5 text-sm text-gray-900">{workExperience.description}</p>
             </div>

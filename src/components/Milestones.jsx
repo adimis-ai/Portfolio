@@ -56,8 +56,8 @@ const Milestones = () => {
         </div>
         <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
           <div className="space-y-4">
-            {milestones.map(({ title, description }) => (
-              <div className="w-full block rounded-xl shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
+            {milestones.map(({ title, description }, index) => (
+              <div key={index} className="w-full block rounded-xl shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
                 <div className="px-4 py-6 focus:outline-none focus-visible:ring-teal-400 text-teal-900">
                   {title} {description}
                 </div>

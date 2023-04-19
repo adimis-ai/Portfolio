@@ -1,19 +1,13 @@
 .parallax {
-    /* The image used */
     background: rgb(0,0,0);
     background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../../assets/hero.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-/* Flexbox styles for all devices */
 .parallax {
     display: flex;
     justify-content: center;
@@ -42,22 +36,50 @@
 }
 
 .parallax2 {
-  /* The image used */
   background: rgb(0,0,0);
   background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../../assets/cta.jpg");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* Flexbox styles for all devices */
 .parallax2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.form-status-error {
+  color: #842029;
+}
+
+.form-status-success {
+  color: #0f5132;
+}
+
+.parallax3 {
+  background: rgb(0,0,0);
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../../assets/hero2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
   display: flex;
   justify-content: center;
   align-items: center;
