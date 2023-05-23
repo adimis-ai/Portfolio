@@ -34,11 +34,11 @@ const Project = () => {
                 Explore my latest open source projects that I'm actively contributing to, utilizing cutting-edge technologies to drive innovation and support the ever-evolving tech community.
               </p>
             </div>
-            <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
               {projects.map((project, index) => (
                 <div key={index} className="p-8 rounded-xl shadow-xl hover:border-teal-900/30 hover:shadow-teal-900/80 transition duration-300 ease-in-out">
-                  <div className="relative w-full h-64 mb-4 rounded-md overflow-hidden">
-                    <img src={project.image} alt={project.name} className="w-full h-full" />
+                  <div className="relative w-full h-96 mb-4 rounded-md overflow-hidden">
+                    <img src={project.image} alt={project.name} className="w-full h-full"/>
                   </div>
                   <div className="flex justify-between">
                     <h2 className="text-xl font-bold text-teal-900">{project.name}</h2>
