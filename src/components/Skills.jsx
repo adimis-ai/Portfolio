@@ -3,6 +3,7 @@ import React from 'react';
 const skills = [
   "HTML / CSS",
   "JavaScript",
+  "TypeScript",
   "Python",
   "React",
   "Next.js",
@@ -17,7 +18,6 @@ const skills = [
   "PostgreSQL",
   "AWS",
   "Docker",
-  "Google Cloud",
   "Git",
 ];
 

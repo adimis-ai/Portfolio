@@ -4,30 +4,26 @@ const workExperiences = [
   {
     title: "Front-End Developer",
     company: "Lazarus Network",
-    duration: "December 2022 - March 2023",
-    description:
-      "I led the frontend development of the Netsepio Chrome Extension at Lazarus Network, using ReactJS and SvelteKit. I also developed a feature-rich web app and designed landing pages for Lazarus Network's products, resulting in a 30% increase in user engagement.",
+    duration: "December 2022 - May 2023",
+    description: "Led development of Netsepio Chrome extension, built Sotreus VPN frontend, and enhanced web app features. Designed engaging landing pages, resulting in 30% user engagement increase. Collaborated with Buildspace team. Thrived in dynamic, innovative environments."
   },
   {
     title: "Full-Stack Developer",
     company: "SpectraCart",
-    duration: "November 2022 - January 2023",
-    description:
-      "During my self-employment journey, I built an e-commerce store using React.js, Node.js, and MongoDB. My efforts led to a 25% increase in website traffic, 20% increase in sales, 15% increase in organic traffic, and a 99% customer satisfaction rating.",
+    duration: "August 2022 - January 2023",
+    description: "Leveraged MERN stack for drop servicing business. Microservice architecture enhanced maintainability, scalability, and fault isolation. Built robust e-commerce platform for increased customer satisfaction and improved sales performance."
   },
   {
     title: "Back-End Developer",
     company: "Detasys",
-    duration: "August 2021 - December 2022",
-    description:
-      "At Detasys, I led multiple software projects using React.js, Node.js, Express.js, Flask, Python, TensorFlow, PyTorch, and FastAPI. My accomplishments include a 20% increase in productivity, 15% reduction in development time, and staying ahead of technology trends.",
+    duration: "August 2021 - August 2022",
+    description: "Upgraded client management system, integrated additional services, and managed intern developers. Utilized React.js, Node.js, Express.js, Flask, Python, TensorFlow, PyTorch, and FastAPI. Delivered high-quality software solutions and demonstrated effective project management."
   },
   {
     title: "Back-End Developer",
     company: "Freelancer",
-    duration: "April 2021 - November 2022",
-    description:
-      "As a freelance fullstack developer, I worked on diverse projects across various industries, consistently exceeding client expectations and receiving 5-star ratings on all projects. I developed a mobile app for tracking daily expenses and a web app connecting patients with doctors for online consultations etc.",
+    duration: "April 2021 - Present",
+    description: "Notable accomplishments include developing a mobile app for expense tracking, optimizing performance by 40%. Improved a web application's performance by 30% for online consultations. Built an Electron desktop app for Discord message filtering. Completed over 10 projects across industries with 5-star ratings. Thrived during COVID-19 lockdown, delivering exceptional results remotely."
   },
 ];
 

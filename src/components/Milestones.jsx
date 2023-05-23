@@ -2,44 +2,40 @@ import React from 'react';
 
 const milestones = [
   {
-    title: 'Currently participating in builspace night and weekends season 3.',
+    title: 'Actively participating in builspace night and weekends season 3, continuously sharpening skills and staying ahead of industry trends.',
     description: '',
   },
   {
-    title: 'Crafted an successful e-commerce store',
+    title: 'Crafted a robust and successful e-commerce application',
     description:
-      'with React, Redux, and Node.js, featuring payment integration, user authentication, and shopping cart functionalities for seamless transactions.',
+      'using React, Redux, and Node.js. Implemented seamless payment integration, user authentication, and a fully functional shopping cart for secure and seamless transactions.',
   },
   {
-    title: 'Developed Frontend of Netsepio',
+    title: 'Developed the frontend of Netsepio, revolutionizing website safety and authenticity categorization',
     description:
-      'a blockchain-based Chrome extension for website safety and authenticity categorization, using SvelteKit for frontend development.',
+      'by creating a blockchain-based Chrome extension. Utilized SvelteKit to deliver a user-friendly and efficient interface for enhanced security solutions.',
   },
   {
-    title: 'Created a webapp for sorteus a secure VPN service',
-    description: 'a secure VPN service.',
+    title: 'Successfully created a secure VPN web application for Sorteus',
+    description: 'using cutting-edge technologies and rigorous security measures to provide users with a reliable and private browsing experience.',
   },
   {
-    title: 'Managed a team of five',
+    title: 'Developed a seamless desktop app for Discord message filtering',
     description:
-      'to create an AWS-based inventory management system, increasing operational efficiency by 25% and improving inventory tracking accuracy by 20%.',
+      'using React, TypeScript, and ElectronJS. Implemented secure user access through authentication with a Flask API server. Integrated memberful with Stripe for efficient subscription management.',
   },
   {
-    title: 'Implemented a custom CMS',
+    title: 'Demonstrated exceptional leadership skills as a team manager',
     description:
-      'using FastAPI and MongoDB for a publishing company, increasing content management efficiency by 30% and facilitating a 15% growth in published content.',
+      'while overseeing the development of an AWS-based inventory management system. Achieved a 25% increase in operational efficiency and improved inventory tracking accuracy by 20%.',
   },
   {
-    title: 'Developed a mobile app',
+    title: 'Implemented a custom Content Management System (CMS) for a publishing company',
     description:
-      'for an organization to coordinate and manage fundraising events, raising donations and increasing volunteer participation by 50%.',
-  },
-  {
-    title: 'Conducted a security audit',
-    description:
-      "for a healthcare company's software system, implementing measures to prevent data breaches and increasing overall system security by 40%.",
-  },
+      'using FastAPI and MongoDB, leading to a 30% increase in content management efficiency and enabling a remarkable 15% growth in published content.',
+  }
 ];
+
 
 const Milestones = () => {
   return (

@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
       
-          <div className="py-5 text-center text-sm text-gray-900">© 2023 - PREC.IO. All rights reserved.</div>
+          <div className="py-5 text-center text-sm text-gray-900">© 2023 - ADIMIS. All rights reserved.</div>
         </footer>
       </div>
     </div>
