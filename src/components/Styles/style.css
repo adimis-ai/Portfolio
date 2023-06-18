@@ -19,11 +19,11 @@
 }
 
 .hover\:border-teal-900\/30:hover {
-  border-color: rgba(33, 131, 118, 0.76);
+  border-color: #46c1fe;
 }
 
 .hover\:shadow-teal-900\/40:hover {
-  box-shadow: 0 4px 6px -1px rgba(33, 131, 118, 0.76),
+  box-shadow: 0 4px 6px -1px #46c1fe,
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 

@@ -42,10 +42,10 @@ const Milestones = () => {
     <section>
       <div className="mb-12">
         <div className="mx-auto max-w-lg text-center">
-          <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-700 to-black">
+          <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#5de0e6] to-[#004aad]">
             Milestones
           </h2>
-          <p className="mt-4 px-2 text-lg text-gray-900">
+          <p className="mt-4 px-2 text-lg text-[#fffff0]">
             Discover the transformative projects and accomplishments that have
             shaped my career journey and impact.
           </p>
@@ -54,7 +54,7 @@ const Milestones = () => {
           <div className="space-y-4">
             {milestones.map(({ title, description }, index) => (
               <div key={index} className="w-full block rounded-xl shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
-                <div className="px-4 py-6 focus:outline-none focus-visible:ring-teal-400 text-teal-900">
+                <div className="px-4 py-6 focus:outline-none focus-visible:ring-teal-400 text-[#fffff0]">
                   {title} {description}
                 </div>
               </div>

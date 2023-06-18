@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .color {
-  background-color: rgba(255, 255, 255, 0.979);
+  background-color: #141414;
 }
 
 ::-webkit-scrollbar {
@@ -26,5 +26,5 @@
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'GFS Didot', serif;
 }

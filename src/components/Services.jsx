@@ -40,19 +40,19 @@ const Services = () => {
     <div>
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
-          <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-700 to-black">
+          <h2 className="text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#5de0e6] to-[#004aad]">
             Services I Provide
           </h2>
-          <p className="mt-4 text-xl text-gray-900">
+          <p className="mt-4 text-xl text-[#fffff0]">
             Empowering you with professional web development services, tailored to your needs.
           </p>
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {services.map(({ title, description }, index) => (
-          <div key={index} className="p-10 block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
-            <h2 className="text-xl font-bold text-teal-900">{title}</h2>
-            <p className="mt-5 text-md text-gray-900">
+          <div key={index} className="block rounded-xl p-8 shadow-xl transition hover:border-teal-900/30 hover:shadow-teal-900/40">
+            <h2 className="text-xl font-bold text-[#46c1fe]">{title}</h2>
+            <p className="mt-5 text-md text-[#fffff0]">
               {description}
             </p>
           </div>

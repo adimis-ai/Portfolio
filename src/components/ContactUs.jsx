@@ -60,99 +60,99 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-black via-teal-700 to-black">
+          <h2 className="mb-4 text-center text-5xl font-bold sm:text-5xl text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#5de0e6] to-[#004aad]">
             Let's Collaborate!
           </h2>
-          <p className="mx-auto max-w-screen-md text-center text-gray-900 md:text-lg">
+          <p className="mx-auto max-w-screen-md text-center text-[#fffff0] md:text-lg">
             Share your project ideas or inquiries with me, and let's work together to create something amazing! Your message is important to me, and I'll respond as soon as possible.
           </p>
         </div>
 
         <form className="mx-auto mb-2 grid max-w-screen-md gap-4 sm:grid-cols-2" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="firstName" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="firstName" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               First name
             </label>
             <input
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div>
-            <label htmlFor="lastName" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="lastName" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Last name
             </label>
             <input
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="company" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="company" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Company
             </label>
             <input
               name="company"
               value={formData.company}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="email" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Email
             </label>
             <input
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="phone" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="phone" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Phone
             </label>
             <input
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="subject" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="subject" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Subject
             </label>
             <input
               name="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="message" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="message" className="mb-2 inline-block text-sm text-[#46c1fe] sm:text-base">
               Message
             </label>
             <textarea
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="h-64 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              className="h-64 w-full rounded border bg-[#232323] px-3 py-2 text-[#fffff0] outline-none ring-indigo-300 transition duration-100 focus:ring"
             ></textarea>
           </div>
           <div className="flex items-center justify-between sm:col-span-2">
             <button
               type="submit"
-              className="inline-block mx-auto rounded-lg bg-black px-32 py-3 text-center inline-flex items-center justify-center w-full py-3 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-teal-900 focus:ring focus:ring-teal-900 focus:ring-opacity-80 transition"
+              className="mx-auto px-32 text-center inline-flex items-center justify-center w-full py-3 mb-2 text-lg text-white bg-gray-900 rounded-2xl sm:w-auto sm:mb-0 hover:bg-[#46c1fe] hover:text-[#141414] focus:ring focus:ring-[#46c1fe] focus:ring-opacity-80 transition"
             >
               Send
             </button>
