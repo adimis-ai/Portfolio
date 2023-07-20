@@ -9,29 +9,14 @@ const services = [
       "All-in-one expert for frontend, backend, database, and deployment, streamlining your project with efficiency and exceptional results.",
   },
   {
-    title: "Frontend Development",
+    title: "Machine Learning Engineering",
     description:
-      "Enhance your online presence with cutting-edge technologies, delivering intuitive and visually stunning interfaces to drive user engagement.",
-  },
-  {
-    title: "Backend Development",
-    description:
-      "Establish a solid foundation with reliable, scalable backend solutions tailored to your needs, ensuring your project's success.",
-  },
-  {
-    title: "Database Development",
-    description:
-      "Expertly organize and manage your data with tailored solutions using leading database technologies for secure, efficient storage.",
+    "Elevate your business with my expert Machine Learning service. Custom solutions for predictive models, NLP, computer vision, and more."
   },
   {
     title: "UI/UX Design",
     description:
       "Craft captivating and user-friendly designs, optimizing user experience with a perfect blend of aesthetics and functionality for maximum engagement.",
-  },
-  {
-    title: "Project Management",
-    description:
-      "Achieve tight deadlines with ease using comprehensive project management, collaborating with skilled freelancers, and ensuring smooth, timely project execution.",
   },
 ];
 

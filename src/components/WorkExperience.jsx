@@ -4,27 +4,21 @@ const workExperiences = [
   {
     title: "Front-End Developer",
     company: "Lazarus Network",
-    duration: "December 2022 - Present",
+    duration: "December 2022 - June 2023",
     description: "Led development of Netsepio Chrome extension, built Sotreus VPN frontend, and enhanced web app features. Designed engaging landing pages, resulting in 30% user engagement increase. Collaborated with team for buildspace's nights and weekends season-3."
   },
   {
-    title: "Full-Stack Developer",
-    company: "SpectraCart",
-    duration: "August 2022 - January 2023",
-    description: "Leveraged MERN stack for drop servicing business. Microservice architecture enhanced maintainability, scalability, and fault isolation. Built robust e-commerce platform for increased customer satisfaction and improved sales performance."
-  },
-  {
-    title: "Full-Stack Developer",
-    company: "Detasys",
-    duration: "November 2021 - November 2022",
-    description: "I gained valuable experience as a Fullstack Developer intern at Detasys, where I contributed to projects like Ecommerce Stores, CRM, and CMS, delivering tailored solutions to clients. I also led a team in integrating new services into the Deta ERP system, enhancing its functionality."
-  },
-  {
-    title: "Back-End Developer",
+    title: "Machine Learning Engineer & Full-Stack Developer",
     company: "Freelancer",
-    duration: "June 2021 - Present",
-    description: "As a self-employed Fullstack Developer, I have utilized a range of technologies such as Python, JavaScript, React, and Node.js to deliver custom solutions for various projects. With a portfolio of over 10 deployed projects, including web apps, desktop and mobile applications, and automation systems, I prioritize client satisfaction through robust web development and effective communication."
+    duration: "March 2022 - December 2022",
+    description: "Experienced in Machine Learning Engineering and Full-Stack Development. Created innovative AI solutions, user-friendly apps, and completed 10+ diverse projects. Notable accomplishments include automated AI agent with NLP and web app with custom recommendation engine. Passionate about delivering top-notch solutions."
   },
+  {
+    title: "Software Developer Intern",
+    company: "Detasys",
+    duration: "August 2021 - January 2022",
+    description: "I gained valuable experience as a Software Developer intern at Detasys, where I contributed to projects like Ecommerce Stores, CRM, and CMS, delivering tailored solutions to clients. I also led a team in integrating new services into the Deta ERP system, enhancing its functionality."
+  }
 ];
 
 const WorkExperience = () => {

@@ -4,7 +4,6 @@ import Services from '../components/Services'
 import WorkExperience from '../components/WorkExperience'
 import Skills from '../components/Skills'
 import Testimonial from '../components/Testimonial'
-import Milestones from '../components/Milestones'
 import CTA from '../components/CTA'
 import Contact from '../components/ContactUs'
 import Footer from '../components/Footer'
@@ -24,7 +23,6 @@ function Home() {
       <div className="divider mx-48"></div> 
       <Projects/>
       <div className="divider mx-48 mb-14"></div> 
-      <Milestones/>
       <CTA />
       <Testimonial />
       <div className="divider mx-48 mb-14"></div> 

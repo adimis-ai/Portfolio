@@ -1,69 +1,43 @@
 import React from 'react';
 
 const skills = [
-  // Languages
+  "ML Algorithms",
+  "NLP",
+  "Data Visualization",
+  "Data Preprocessing",
+  "Feature Engineering",
   "Python",
-  "JavaScript",
-  "TypeScript",
-  "HTML/CSS",
-
-  // Frontend Development
-  "ReactJs",
-  "NextJs",
-  "Angular",
-  "Vue.js",
-  "Redux",
-
-  // Backend Development
-  "NodeJs",
-  "ExpressJs",
-  "Flask",
-  "FastAPI",
-  "Django",
-
-  // Natural Language Processing (NLP) and Machine Learning (ML) Frameworks
   "TensorFlow",
   "PyTorch",
-  "HugginFace",
+  "Hugging Face",
   "Langchain",
-
-  // Cloud Platforms and Deployment
-  "AWS",
-  "Microsoft Azure",
-  "GCP",
-  "Docker",
-  "Kubernetes",
-  "Jenkins",
-  "Travis CI",
-
-  // Version Control and Collaboration
-  "Git",
-  "GitHub",
-
-  // Testing and Quality Assurance
-  "Unit Testing",
-  "TDD",
-  "CI/CD",
-  "Selenium",
-  "Puppeteer",
-
-  // Relational Database
+  "scikit-learn",
+  "Jupyter Notebooks",
+  "Tableau",
+  "Keras",
+  "RESTful API",
+  "GraphQL API",
+  "Database design",
+  "JavaScript",
+  "TypeScript",
+  "Node.js",
+  "Express.js",
+  "Electron.js",
+  "Django",
+  "Flask",
+  "FastAPI",
+  "MongoDB",
   "PostgreSQL",
   "MySQL",
-  "Oracle",
-
-  // Non-Relational Database
-  "MongoDB",
-  "Redis",
-  "Cassandra",
-
-  // Vector Database
-  "FAISS",
-  "ElasticSearch",
-  "Pinecone",
-  "Milvus"
+  "Firebase",
+  "Diagrams.net",
+  "UI/UX Design",
+  "React.js",
+  "Next.js",
+  "Redux",
+  "React Native",
+  "Figma",
 ];
-
 
 const Skills = () => {
   return (
